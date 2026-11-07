@@ -1,0 +1,119 @@
+body{
+    font-size: larger;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background-color: rgba(235, 176, 144, 0.1);
+}
+header h2{
+    border: 1px solid rgb(167, 79, 20);
+    border-radius: 12px;
+    padding: 6px;
+    color: rgb(167, 79, 20);
+}
+.NewTask{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(167, 79, 20);
+    color: white;
+}
+.NewTask p{
+    padding:12px;
+}
+.NewTask svg{
+    padding: 12px;
+}
+.overlay{
+    display: none;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    inset: 0px;
+    backdrop-filter: blur(5px);
+    
+}
+.addTask{
+    border: 1px solid rgb(159, 75, 19);
+    background-color: rgba(235, 176, 144,0.4);
+    border-radius: 20px;
+    width: 30%;
+    padding: 12px;
+    
+}
+.addTask #addTask-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addTask h3{
+    color: rgb(159, 75, 19);
+    margin: 12px;
+}
+.addTask svg{
+    padding:8px;
+}
+.addTask form{
+    display: flex;
+    flex-direction: column;
+}
+.addTask input{
+    border-radius: 20px;
+    padding: 12px;
+    margin: 6px;
+    border: transparent;
+    outline: 2px solid rgb(159, 75, 19);
+}
+.addTask button{
+    border-radius: 50px;
+    width: 30%;
+    align-self: center;
+    padding: 12px;
+    margin: 6px;
+    background-color: rgb(159, 75, 19);
+    color: white;
+    border: transparent;
+}
+.taskListContainer{
+    border-radius: 12px;
+    padding: 6px;
+    border: 1px solid  rgb(167, 79, 20);
+    background-color: rgba(235, 176, 144, 0.4);
+    margin: 6px 0px;
+}
+.taskListContainer h2{
+     color: rgb(167, 79, 20);
+}
+.task{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    margin: 12px;
+    padding: 6px;
+}
+.task input{
+     height: 22px;
+     width: 22px;
+     margin: 0px 12px;
+}
+.taskValues{
+    margin-top: 0px;
+    padding: 0px;
+    color: rgb(167, 79, 20);
+}
+
+.task p{
+    margin: 0px;
+}
+ .EditIcon {
+    margin-left: auto;
+
+}
+.completed{
+    text-decoration: line-through;
+}
