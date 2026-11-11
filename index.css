@@ -117,3 +117,21 @@ header h2{
 .completed{
     text-decoration: line-through;
 }
+@media (max-width:880px) {
+    .addTask button{
+        font-size: small;
+        
+    }
+    .addTask h3{
+         font-size: large;
+    }
+    .addTask{
+        width: 60%;
+    }
+
+}
+@media (max-width:380px) {
+    .addTask{
+        width: 80%;
+    }
+}
